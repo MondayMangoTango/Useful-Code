@@ -1,0 +1,39 @@
+FISHMORPH: a global database on morphological traits of freshwater fishes ,,
+,,
+Motivation: ,Global freshwater fish biodiversity and their responses to global changes have intensively been explored using taxonomic data, while functional aspects remain understudied due to the lack of knowledge for most species. To fill this gap, we compiled morphological traits related to locomotion and feeding for the world freshwater fish fauna based on pictures and scientific drawings available from the literature.  ,
+"Main types of variables contained:,""The database includes ten morphological traits measured on 10 230 freshwater fish species, covering 59.71% of the world freshwater fish fauna."","
+"Spatial location and grain:,""Global"","
+"Major taxa and level of measurement: ,The database consider ray-finned
+fishes (Class Actinopterygii), and measurements were made to species level.
+,"
+,,
+"Data affiliated to publication/please cite as:,""Brosse, S., Charpin, N., Su, G., Toussaint, A., Herrera, G., Tedesco, P.A., Villeger, S. FISHMORPH: a global database on morphological traits of freshwater fishes. Global Ecology and Biogeography"", DOI: 10.1111/geb.13395,"
+The above publication contains all further information and methods.,,
+Database manager/Primary contact:,Sebastien Brosse (sebastien.brosse@univ-tlse3.fr),
+,,
+We kindly ask the users to cite FISHMORPH as well as the source of each primary dataset in any published material produced using these data.,,
+Feel free to use the FISHMORPH data, and to contact authors for details or collaborations.,,
+FISHMORPH remains a work in progress so in order to help us improve the database, we encourage users to provide their feedback or querries to the primary database manager who will be happy to help. ,,
+,,
+The database is organized in a single table given in .csv format, organized as described below. ,,
+,,
+FISHMORPH_Database.csv,
+Variable name,Data type,Variable description
+SpecCode, decimal,Species code in Fishbase (Froese & Pauly 2020)
+Superorder,character,Valid superorder according to Froese & Pauly (2020)
+Order,character,Valid order according to Froese & Pauly (2020)
+Family,character,Valid family according to Froese & Pauly (2020)
+Genus species,character,Valid genus and species name according to Froese & Pauly (2020)
+MBl,decimal,Maximum body length in centimetres according to Froese & Pauly (2020) 
+BEl,decimal, Body elongation measured as the ratio between body length and boy depth
+VEp,decimal, Vertical eye position measured as the ratio between eye position and body depth
+REs,decimal, Relative eye size measured as the ratio between eye diameter and head depth
+OGp,decimal, Oral gape position measured as the ratio betweenmouth height and body depth
+RMl,decimal, Relative maxillary length measured as the ratio between maxillary jaw length and head depth
+BLs,decimal, Body lateral shape measured as the ratio between head depth and body depth
+PFv,decimal, Pectoral fin vertical position measured as the ratio between pectoral fin position and body depth
+PFs,decimal, Pectoral fin size measured as the ratio between pectoral fin length and body length
+CPt,decimal, Caudal peduncle throttling measured as the ratio between caudal fin depth and caudal peduncle depth
+Type of illustration, Indicate if the measures are taken from a photograph or a drawing
+Reference, Reference of the illustration
+,,
